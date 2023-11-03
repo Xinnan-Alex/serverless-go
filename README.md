@@ -15,3 +15,6 @@ GOOS=linux: This is an environment variable that specifies the target operating 
 GOARCH=amd64: This is another environment variable that specifies the target architecture for the binary. "amd64" represents the 64-bit x86 architecture, commonly used in most modern computers.
 
 CGO_ENABLED=0: This environment variable disables the use of cgo, which is the part of the Go toolchain that allows Go code to call C functions. Setting it to 0 means that cgo is disabled.
+
+Official Documentaiton for deploying GO with AWS Lambda Function
+https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html
