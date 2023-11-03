@@ -1,0 +1,32 @@
+### Title: Create User
+# Description: This request is used to create a new user with the specified email, first name, and last name.
+POST https://dk87qcv8ae.execute-api.ap-southeast-1.amazonaws.com/staging
+Content-Type: application/json
+
+{
+  "email": "xinnan@gmail.com",
+  "firstName": "Leong",
+  "lastName": "XinNan"
+}
+
+### Title: Retrieve User Information
+# Description: This request is used to retrieve user information from the API.
+GET https://dk87qcv8ae.execute-api.ap-southeast-1.amazonaws.com/staging
+
+### Title: Update User Information
+# Description: This request is used to update the user's information, specifically changing the last name, first name associated with the specified email.
+PUT https://poix37tf03.execute-api.ap-southeast-1.amazonaws.com/staging
+Content-Type: application/json
+
+{
+  "email": "xinnan@gmail.com",
+  "lastName": "Alex"
+}
+
+### Title: Retrieve User Information by Email
+# Description: This request is used to retrieve user information from the API based on the provided email.
+GET https://poix37tf03.execute-api.ap-southeast-1.amazonaws.com/staging?email=xinnan@gmail.com
+
+### Title: Delete User by Email
+# Description: This request is used to delete a user's information from the API based on the provided email.
+DELETE https://poix37tf03.execute-api.ap-southeast-1.amazonaws.com/staging?email=xinnan@gmail.com
